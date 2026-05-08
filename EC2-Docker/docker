@@ -1,13 +1,13 @@
 clear
 sudo yum update -y
 sudo yum install -y docker
-    4  cat /etc/os-release
-    5  sudo service docker start
-    6  sudo systemctl enable docker
-    7  sudo usermod -a -G docker ec2-user
-    8  docker version
-    9  docker run hello-world
-   10  sudo usermod -a -G docker aruface
+cat /etc/os-release
+sudo service docker start
+sudo systemctl enable docker
+sudo usermod -a -G docker ec2-user
+docker version
+docker run hello-world
+sudo usermod -a -G docker aruface
    11  sudo adduser -a -G docker aruface
    12  sudo useradd sudo systemctl start docker
    13  sudo systemctl start docker
